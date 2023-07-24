@@ -1,0 +1,107 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+
+body{
+    background-color: #8990ec;
+}
+
+.wrapper{
+    height: 525px;
+    width: 360px;
+    color: white;
+    background-color: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+}
+
+
+#topcontainer{
+    margin-top: 4rem;
+}
+
+.container{
+    margin-top: 1.4rem;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.inputcontainer{
+    background-color:#353959;
+    border-radius: 1.4rem;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+
+}
+
+#billtotalinput,
+#tipinput{
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+}
+
+
+
+.buttoncontainer{
+    background: #8990ec;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
+.splitbutton {
+    background: none;
+    border: none;
+  }
+
+.controls{
+    display: flex;
+    align-items: center;
+}
+
+.buttontext{
+    color: #353959;
+}
+
+.splitamount{
+    font-size: 1.6rem;
+    margin: 0.8rem;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+
+  .total {
+    font-size: 2rem;
+  }
+
+  .Calculate{
+    background: none;
+    color: #f7f7f7;
+    background-color: #7c83e8;
+    border-radius: 20%;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.6rem;
+  }
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip_calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body >
+    <div class="wrapper">
+        <div class="container" id="topcontainer">
+            <div class="title">Bill Total</div>
+            <div class="inputcontainer" >
+                <span>₹</span>
+                <input 
+                
+                type="text"
+                id="billtotalinput"
+                placeholder="0.00"/>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="title">Tip</div>
+            <div class="inputcontainer">
+                <span>%</span>
+                <input 
+                
+                type="text"
+                id="tipinput"
+                placeholder="10" />
+            </div>
+        </div>
+
+        <div class="container" id="bottom">
+            <div class="splitcontainer">
+                <div class="title">People</div>
+                <div class="controls">
+                    <span class="buttoncontainer">
+                        <button class="splitbutton" onclick="increasePeople()">
+                            <span class="buttontext">+</span>
+                        </button>
+
+                    </span>
+
+                    <span class="splitamount" id="numberofpeople">1</span>
+                    <span class="buttoncontainer">
+                        <button class="splitbutton" onclick="decreasePeople()">
+                            <span class="buttontext">-</span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+            <div class="totalcontainer">
+                <div class="title">Total Per Person</div>
+                <div class="total" id="perpersontotal">₹0.00</div>
+            </div>
+        </div>
+
+        <div style="align-items: center; margin-top: 5rem; margin-left: 6rem;" onclick="calculateBill()">
+            <button class="Calculate" >Claculate</button>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
